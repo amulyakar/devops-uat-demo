@@ -62,14 +62,11 @@ pipeline {
         success {
             echo 'UAT pipeline completed successfully!'
         }
-
         failure {
             echo 'UAT pipeline failed. Check Console Output for errors.'
         }
-
         always {
             echo 'DevOps UAT pipeline execution finished.'
         }
     }
 }
-```
